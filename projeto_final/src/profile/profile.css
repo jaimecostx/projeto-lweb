@@ -1,0 +1,114 @@
+.userInformation {
+    position: relative;
+    top: 150px;
+    left: 30%;
+    width: 90vh;
+    z-index: 0;
+  }
+  hr {
+    position: relative;
+    top: -150px;
+    color: white;
+  }
+  .theNameProfile {
+    top: -200px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 300px;
+  }
+  .theUsernameProfile {
+    top: -200px;
+    color: #36c3fe;
+    position: relative;
+    left: 300px;
+  }
+  .bio {
+    top: -200px;
+    position: relative;
+    color: white;
+    left: 300px;
+  }
+  .userIMGpro {
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .icoCog {
+    position: relative;
+    color: white;
+    background-color: rgba(255, 228, 196, 0);
+    border: 0;
+    font-size: 30px;
+    left: 300px;
+    top: -150px;
+  }
+  .user-post-box {
+    position: relative;
+    background-color: #3d3d3d !important;
+    height: 700px;
+    width: 900px;
+    left: 500px;
+  }
+  .previousUSER {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    border: 0;
+    color: #a3ff61;
+    height: 50px;
+    width: 50px;
+    top: 300px;
+    left: -50px;
+    font-size: 60px;
+    transform: scaleX(-1);
+  }
+  .nextUSER {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    border: 0;
+    color: #a3ff61;
+    height: 50px;
+    width: 50px;
+    top: 300px;
+    left: 900px;
+    font-size: 60px;
+  }
+  #userIMG {
+    display: inline-block;
+    max-width: 650px;
+    max-height: 570px;
+  }
+  .user-bottom-part {
+    left: 50px;
+    width: 650px;
+    padding-bottom: 80px;
+  }
+  .user-bottom-part .theUsername {
+    position: relative;
+    left: 50px;
+    top: 30px;
+    display: inline;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  .user-bottom-part .comment {
+    position: relative;
+    top: 30px;
+    left: 55px;
+    display: inline;
+    color: white;
+    width: 650px;
+  }
+  .user-bottom-part #addComment {
+  top:50px;
+    position: relative;
+    background-color: #5a5a5a;
+    border: 0;
+    height: 28px;
+    width: 650px;
+    left: 50px;
+  }

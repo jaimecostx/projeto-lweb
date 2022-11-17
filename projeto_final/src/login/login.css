@@ -1,0 +1,152 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: 1px;  
+  position: absolute;
+  background-color: #4D4D4D;
+  width: auto;
+  height: auto;
+  background-image: url('./camera2.png') !important;
+  background-repeat: no-repeat;
+  background-position-x:130% ;
+  background-size: 75%;
+}
+::placeholder {
+  color: white;
+  font-size: 20px;
+}
+.box-main {
+  background-color: #3D3D3D !important;
+  display: block;
+  position: absolute;
+  margin: 5vh;
+  padding: 2vh;
+  top: 5vh;
+  left: 25vh;
+  width: 50vh;
+  height: 75vh;
+  border: 0px;
+  min-height: fit-content;
+  min-width: fit-content;
+}
+#instapicslogo-main {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn-main button {
+  margin-top: 15px;
+  width: 95%;
+  border: 0;
+  color: white;
+  padding: 15px 15px;
+  display: inline-block;
+  position: relative;
+  left: 12vh;
+}
+.btn-main button {
+  width: 25vh;
+  height: 61px;
+}
+#signup-main {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #36c3fe;
+  border: 0px;
+  margin-top: 15px;
+}
+#signup-main:hover {
+  background-color: #30aadf;
+  color: white;
+}
+#login-main:hover {
+  background-color: #5882e2;
+  color: white;
+}
+#login-main {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  background-color:#6592fe;
+  border: 0px;
+  margin-bottom: 15px;
+}
+div.txt-main {
+  position: static;
+  padding: 15px 15px;
+  margin: auto;
+  color: white;
+  margin-top: 30%;
+}
+.txt-main input {
+  height: 45px;
+  border: 0;
+  background-color: #5a5a5a;
+  color: white;
+  font-size: 20px;
+}
+#user-main {
+  position: static;
+  display: block;
+  margin-top: 50px; 
+  margin-bottom: 15px;
+  width: 46vh;
+
+}
+#pw-main {
+  position: static;
+  display: block;
+  margin-top: 15px; 
+  width: 46vh;
+}
+.footer-main #done-main {
+  color: rgba(255, 255, 255, 0.712);
+  font-size: 14px;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+
+}
+.createAcc {
+  display: flex;
+  flex-direction: row;
+  width: 46vh;
+  width: 95%;
+  border: 0;
+  color: white;
+
+}
+.createAcc:before, .createAcc:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.createAcc:before {
+  margin-right: 10px
+}
+.createAcc:after {
+  margin-left: 10px
+}
+#recover-main {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #82d9ff;
+  border: 0px;
+  margin-top: 15px;
+}
+#recover-main:hover {
+  background-color: #6cbfe2;
+  color: white;
+}

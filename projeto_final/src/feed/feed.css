@@ -1,0 +1,344 @@
+body  {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px;
+  letter-spacing: 1px;  
+  position: absolute;
+  background-color: #4D4D4D;
+  height: auto;
+  width: auto;
+}
+button {
+  cursor: pointer;
+}
+.all {
+  background-color: #4D4D4D;
+  background-image: url('./camera2.png');
+  height: 900px;
+  width: 1700px;
+}
+/*BOX HEADER STUFF*/
+.all .box-header {
+  background-color: #3D3D3D !important;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  left: 0;
+}
+#instapicslogo-feed {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: 56vh;
+  top: 12px;
+}
+#search {
+  color: white;
+  font-size: 16px;
+  position: relative;
+  background-color: #737373;
+  border: 0;
+  left: 132vh;
+  top: 20px ;
+  height: 38px;
+  width: 290px !important;
+}
+/*  IMAGE POST STUFF */
+.post-box {
+  position: fixed;
+  background-color: #3D3D3D !important;
+  height: 800px;
+  width: 900px;
+  top: 150px;
+  left: 250px ;
+} 
+.top-part {
+  position: relative;
+  height: auto;
+  width: 300px;
+  left: 50px;
+  top: 15px;
+}
+#userImg {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px white;
+  height: 80px;
+  width: 80px;
+}
+.text {
+  position: absolute;
+  display: inline;
+  float: left;
+  top: 0px ;
+  left: 100px;
+  line-height: 6px;
+  top: 11px;
+}
+.theName {
+  color: white;
+  font-weight: bold;
+}
+.theUsername {
+  color:#36c3fe;
+  font-size: 14px;
+}
+/* CENTER PART */
+.center-part {
+  position: relative;
+  top: 25px;
+  left: 50px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+#userIMGpro {
+  display: inline-block;
+  max-width: 650px;
+  max-height: 600px;
+}
+/* POST INTERACTION */
+.interact {
+  position: absolute;
+  top: 40%;
+  right: 150px;
+  float: right;
+  
+}
+.numberLikes {
+  position: relative;
+  display: inline;
+  color: white;
+  font-size: 25px;
+  right: -320px !important;
+}
+.interact button {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  width: 90px;
+  height: 80px;
+}
+.icoHeart {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 80px;
+}
+.icoComment {
+  margin-top: 20px;
+  color: white;
+  font-size: 80px;
+  transform: scaleX(-1); 
+}
+
+/* BOTTOM PART */
+.bottom-part {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  width: 650px;
+  padding-bottom: 80px;
+}
+.bottom-part .theUsername {
+  position: fixed;
+  top: 850px;
+  left: 300px;
+  display: inline;
+  font-size: 16px !important;
+  font-weight: bold;
+}
+.bottom-part .comment {
+  position: fixed;
+  top: 850px;
+  left: 450px;
+  display: inline;
+  color: white;
+  width: 650px;
+}
+.bottom-part #addComment {
+  top: 900px;
+  position: fixed;
+  background-color: #5a5a5a;
+  border: 0;
+  height: 28px;
+  width: 650px;
+  left: 300px;
+  
+}
+/* SIDE SHIT */
+.side {
+  position: fixed;
+  bottom: -250px;
+}
+.user-box {
+  position: relative;
+  background-color: #737373;
+  width: 309px;
+  height: 150px;
+  top: -550px;
+  left: 130vh;
+}
+.newUser-box {
+  position: relative;
+  background-color: #737373;
+  width: 309px;
+  height: 250px;
+  top: -500px;
+  left: 130vh;
+}
+.newbutton {
+  position: relative;
+  left: 135vh;
+  top: -450px;
+}
+#newPost {
+  font-size: 20px;
+  color: white;
+  background-color: #FF8761;
+  border: 0;
+  border-radius: 12px;
+  height: 100px;
+  width: 209px;
+}
+/*xxxxxxxxxxxxxxxx xxxxxxxxxxx*/
+#sideUser {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px white;
+  height: 100px;
+  width: 100px;
+  top: 25px;
+  left: 10px;
+}
+.userInfo {
+  font-size: 20px;
+  position: absolute;
+  display: inline;
+  float: left;
+  top: 0px ;
+  left: 120px;
+  line-height: 6px;
+  top: 36px;
+}
+#newUser {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  border: 1px white;
+  height: 80px;
+  width: 80px;
+  top: 25px;
+  left: 10px;
+}
+.sideTxt {
+  position: absolute;
+  display: inline;
+  float: left;
+  left: 100px;
+  line-height: 6px;
+  top: 31px;
+}
+.sideTxt2 {
+  position: absolute;
+  display: inline;
+  float: left;
+  left: 100px;
+  line-height: 6px;
+  bottom: -36px;
+}
+#newUser2 {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  border: 1px white;
+  height: 80px;
+  width: 80px;
+  bottom:25px;
+  left: 10px;
+}
+/* botoes */
+.persona button {
+  position: relative;
+  left: 125px;
+  display: inline;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #36c3fe;
+  font-size: 30px;
+
+}
+.icoPlus1 {
+  position: relative;
+  left: -150px;
+  top: -61px;
+}
+.icoPlus2 {
+  position: relative;
+  left: -150px;
+  top: -61px;
+}
+.icoSignout {
+  color: #ff5656;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+.user-box button {
+  position: relative;
+  left: 125px;
+  display: inline;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #36c3fe;
+  font-size: 30px;
+}
+#userIMGpro{
+  max-width: 650px;
+  max-height: auto;
+}
+.next {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  border: 0;
+  color: #a3ff61;
+  height: 50px;
+  width: 50px;
+  top: 500px;
+  left: 1150px;
+  font-size: 60px;
+}
+.previous {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  border: 0;
+  color: #a3ff61;
+  height: 50px;
+  width: 50px;
+  top: 500px;
+  left: 200px;
+  font-size: 60px;
+  transform: scaleX(-1); 
+}
+.previous:hover {
+  color: #84d14c;
+  font-size: 65px;
+  top: 493px;
+}
+.next:hover {
+  color: #84d14c;
+  font-size: 65px;
+  top: 493px;
+}
+.like:hover {
+  background-color:#35343441;
+}
+.all .box-header {
+  z-index: 5;
+}

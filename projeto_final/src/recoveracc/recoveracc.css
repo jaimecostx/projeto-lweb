@@ -1,0 +1,25 @@
+#recover {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #7ad6fd;
+    border: 0px;
+    top: 140px;
+  }
+  #recover:hover {
+    background-color: #52acd3;
+    color: white;
+  }
+  
+  
+  .footer-main2 #done-main {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 14px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 170px;
+  }

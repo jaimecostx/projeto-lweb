@@ -1,0 +1,16 @@
+#signup-details:hover {
+    background-color: #30aadf;
+    color: white;
+  }
+  #signup-details {
+    position: relative;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #36c3fe;
+    border: 0px;
+    margin-top: 1vh;
+    left: 128px;
+  }
